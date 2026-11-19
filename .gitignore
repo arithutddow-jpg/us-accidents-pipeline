@@ -1,0 +1,22 @@
+# Secrets — NEVER commit
+credentials.json
+*service_account*.json
+.env
+kaggle.json
+
+# Data (download via ingest.py / Kaggle)
+data/*.csv
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+logs/
